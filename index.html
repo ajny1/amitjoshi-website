@@ -7,7 +7,7 @@
 <meta name="description" content="Amit Joshi - AJ helps buyers and sellers across Queens, Brooklyn, the Bronx, Nassau County and Suffolk County, Long Island. Get a free home valuation or new listing alerts.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Jost:wght@300;400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Jost:wght@300;400;500;600&family=Dancing+Script:wght@600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --cream:#F7F1E2;
@@ -136,6 +136,21 @@
   .btn-brick:hover{background:var(--brick-dark);}
   .btn-outline{background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,0.75);}
   .btn-outline:hover{background:rgba(255,255,255,0.12);}
+
+  /* BUY SELL INVEST tagline block */
+  .bsi-block{margin:8px 0 30px;}
+  .bsi-words{
+    font-family:'Fraunces', serif; font-weight:700; font-style:italic;
+    font-size:clamp(22px,3.2vw,36px); line-height:1.05; color:#fff;
+    letter-spacing:0.01em;
+  }
+  .bsi-words span:nth-child(1){color:#fff;}
+  .bsi-words span:nth-child(2){color:#fff;}
+  .bsi-words span:nth-child(3){color:#fff;}
+  .bsi-script{
+    font-family:'Dancing Script', cursive; font-weight:700;
+    font-size:clamp(22px,2.8vw,30px); color:#fff; margin-top:2px; display:block;
+  }
 
   /* SUBWAY LINE SIGNATURE */
   .line-wrap{margin:0 0 8px; overflow-x:auto;}
@@ -331,6 +346,10 @@
     <span class="eyebrow">Queens · Brooklyn · The Bronx · Nassau · Suffolk</span>
     <h1>Home is a local business, Every budget has its Dream Home.</h1>
     <p class="lede">Amit Joshi - AJ helps buyers and sellers move confidently across five very different markets — from Manhattan NYC to Montauk Long Island — with the kind of block-level knowledge that only comes from working them all.</p>
+    <div class="bsi-block">
+      <div class="bsi-words"><span>BUY</span> <span>SELL</span> <span>INVEST</span></div>
+      <span class="bsi-script">What's your time?</span>
+    </div>
     <div class="hero-ctas">
       <button class="btn-brick" onclick="document.getElementById('buy').scrollIntoView()">I'm buying</button>
       <button class="btn-outline" onclick="document.getElementById('sell').scrollIntoView()">I'm selling</button>
@@ -754,7 +773,7 @@
         <span class="label">PHONE</span>
         (516) 263-8822
         <span class="label">EMAIL</span>
-        amit@amitjoshirealtor.com
+        nydreamhome7@gmail.com
         <span class="label">SERVING</span>
         Queens · Brooklyn · The Bronx · Nassau County · Suffolk County
         <span class="label">OFFICE</span>
